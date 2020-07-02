@@ -1,0 +1,61 @@
+/* Change Navbar defaults */
+#nav{
+  background-color: #8d8741;
+  border: none;
+  border-radius: 0;
+}
+
+
+/* Change Defualt navbrand color */
+#main{
+  color:#ffffff;
+}
+
+
+/* For diffrent card-like menu item */
+.menu_item{
+  background-color: #f2f4f3;
+  padding: 30px;
+}
+
+
+/* To disable default link styling */
+.menu_item a.anchor_header{
+  color:#000000;
+  text-decoration: none;
+}
+
+
+/* For button in small screens */
+#toggler{
+  background-color: #ffffff;
+}
+#toggler:hover{
+  background-color: #f2f4f3;
+}
+
+
+/* To remove default borders in the dropdown */
+#items{
+  border:none;
+}
+#items a{
+  color:#ffffff;
+}
+#items a:hover,#items a:active{
+  font-weight: bold;
+  font-size: 1.1em;
+  background-color:#ffffff;
+  color:#8d8741;
+}
+#items li.active a{
+  color:#8d8741;
+}
+
+
+
+/* to add border to the menu_item without wraping into next line */
+[class*="col-"] {
+    background-clip: padding-box;
+    border: 10px solid transparent;
+}
